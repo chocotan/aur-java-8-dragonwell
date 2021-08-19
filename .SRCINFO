@@ -1,0 +1,16 @@
+pkgbase = java-8-dragonwell
+	pkgdesc = No-cost, multiplatform, production-ready distribution of OpenJDK
+	pkgver = 8.7.7
+	pkgrel = 1
+	url = http://dragonwell-jdk.io/
+	arch = x86_64
+	license = GPL2
+	depends = java-runtime-common>=3
+    provides = java-environment=8
+    provides = java-environment-jdk=8
+    provides = jdk=8
+	source = https://github.com/alibaba/dragonwell8/releases/download/dragonwell-8.7.7_jdk8u292-ga/Alibaba_Dragonwell_8.7.7_x64_linux.tar.gz
+	md5sums = 7fa87e6802978c6cfbf5110165294bee
+	md5sums = SKIP
+
+pkgname = java-8-dragonwell
